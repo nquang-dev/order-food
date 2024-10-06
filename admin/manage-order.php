@@ -2,7 +2,7 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Manage Order</h1>
+        <h1>Quản lý đơn đặt hàng</h1>
 
                 <br /><br /><br />
 
@@ -17,18 +17,18 @@
 
                 <table class="tbl-full">
                     <tr>
-                        <th>S.N.</th>
-                        <th>Food</th>
-                        <th>Price</th>
-                        <th>Qty.</th>
-                        <th>Total</th>
-                        <th>Order Date</th>
-                        <th>Status</th>
-                        <th>Customer Name</th>
-                        <th>Contact</th>
+                        <th>STT</th>
+                        <th>Món</th>
+                        <th>Giá</th>
+                        <th>SL</th>
+                        <th>Tổng tiền</th>
+                        <th>Ngày đặt</th>
+                        <th>Trạng thái đặt</th>
+                        <th>Tên</th>
+                        <th>SDT</th>
                         <th>Email</th>
-                        <th>Address</th>
-                        <th>Actions</th>
+                        <th>Địa chỉ</th>
+                        <th>Chức năng</th>
                     </tr>
 
                     <?php 

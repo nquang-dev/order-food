@@ -6,8 +6,8 @@
         <div class="container">
             
             <form action="<?php echo SITEURL; ?>food-search.php" method="POST">
-                <input type="search" name="search" placeholder="Search for Food.." required>
-                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+                <input type="search" name="search" placeholder="Tìm kiếm món ăn.." required>
+                <input type="submit" name="submit" value="Tìm kiếm" class="btn btn-primary">
             </form>
 
         </div>
@@ -19,7 +19,7 @@
     <!-- fOOD MEnu Section Starts Here -->
     <section class="food-menu">
         <div class="container">
-            <h2 class="text-center">Food Menu</h2>
+            <h2 class="text-center">Menu</h2>
 
             <?php 
                 //Display Foods that are Active
@@ -67,13 +67,13 @@
 
                             <div class="food-menu-desc">
                                 <h4><?php echo $title; ?></h4>
-                                <p class="food-price">$<?php echo $price; ?></p>
+                                <p class="food-price"><?php echo $price; ?> VND</p>
                                 <p class="food-detail">
                                     <?php echo $description; ?>
                                 </p>
                                 <br>
 
-                                <a href="<?php echo SITEURL; ?>order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
+                                <a href="<?php echo SITEURL; ?>order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Đặt món ngay</a>
                             </div>
                         </div>
 

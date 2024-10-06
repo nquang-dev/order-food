@@ -163,13 +163,13 @@
         
             if(isset($_POST['submit']))
             {
-                //echo "Button Clicked";
+                 //echo "Button Clicked";
 
                 //1. Get all the details from the form
                 $id = $_POST['id'];
                 $title = $_POST['title'];
                 $description = $_POST['description'];
-                $price = $_POST['price'];
+                $price = $_POST['price']; // Ensure price is taken as is
                 $current_image = $_POST['current_image'];
                 $category = $_POST['category'];
 

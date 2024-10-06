@@ -25,16 +25,16 @@
             <div class="menu text-right">
                 <ul>
                     <li>
-                        <a href="<?php echo SITEURL; ?>">Home</a>
+                        <a href="<?php echo SITEURL; ?>">Trang chủ</a>
                     </li>
                     <li>
-                        <a href="<?php echo SITEURL; ?>categories.php">Categories</a>
+                        <a href="<?php echo SITEURL; ?>categories.php">Thực đơn</a>
                     </li>
                     <li>
-                        <a href="<?php echo SITEURL; ?>foods.php">Foods</a>
+                        <a href="<?php echo SITEURL; ?>foods.php">Các món ăn</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#">Liên hệ</a>
                     </li>
                 </ul>
             </div>

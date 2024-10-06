@@ -2,7 +2,7 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Update Order</h1>
+        <h1>Cập nhật đơn hàng</h1>
         <br><br>
 
 
@@ -55,59 +55,59 @@
         
             <table class="tbl-30">
                 <tr>
-                    <td>Food Name</td>
+                    <td>Tên món</td>
                     <td><b> <?php echo $food; ?> </b></td>
                 </tr>
 
                 <tr>
-                    <td>Price</td>
+                    <td>Giá</td>
                     <td>
-                        <b> $ <?php echo $price; ?></b>
+                        <b>  <?php echo $price; ?> VND </b>
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Qty</td>
+                    <td>Số lượng</td>
                     <td>
                         <input type="number" name="qty" value="<?php echo $qty; ?>">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Status</td>
+                    <td>Trạng thái đặt</td>
                     <td>
                         <select name="status">
-                            <option <?php if($status=="Ordered"){echo "selected";} ?> value="Ordered">Ordered</option>
-                            <option <?php if($status=="On Delivery"){echo "selected";} ?> value="On Delivery">On Delivery</option>
-                            <option <?php if($status=="Delivered"){echo "selected";} ?> value="Delivered">Delivered</option>
-                            <option <?php if($status=="Cancelled"){echo "selected";} ?> value="Cancelled">Cancelled</option>
+                            <option <?php if($status=="Ordered"){echo "selected";} ?> value="Ordered">Đã đặt hàng</option>
+                            <option <?php if($status=="On Delivery"){echo "selected";} ?> value="On Delivery">Đang giao hàng</option>
+                            <option <?php if($status=="Delivered"){echo "selected";} ?> value="Delivered">Đã giao hàng</option>
+                            <option <?php if($status=="Cancelled"){echo "selected";} ?> value="Cancelled">Đã hủy</option>
                         </select>
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Customer Name: </td>
+                    <td>Tên: </td>
                     <td>
                         <input type="text" name="customer_name" value="<?php echo $customer_name; ?>">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Customer Contact: </td>
+                    <td>Liên hệ: </td>
                     <td>
                         <input type="text" name="customer_contact" value="<?php echo $customer_contact; ?>">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Customer Email: </td>
+                    <td>Email: </td>
                     <td>
                         <input type="text" name="customer_email" value="<?php echo $customer_email; ?>">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Customer Address: </td>
+                    <td>Địa chỉ: </td>
                     <td>
                         <textarea name="customer_address" cols="30" rows="5"><?php echo $customer_address; ?></textarea>
                     </td>
@@ -118,7 +118,7 @@
                         <input type="hidden" name="id" value="<?php echo $id; ?>">
                         <input type="hidden" name="price" value="<?php echo $price; ?>">
 
-                        <input type="submit" name="submit" value="Update Order" class="btn-secondary">
+                        <input type="submit" name="submit" value="Cập nhật đặt hàng" class="btn-secondary">
                     </td>
                 </tr>
             </table>

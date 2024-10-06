@@ -6,7 +6,7 @@
     <!-- CAtegories Section Starts Here -->
     <section class="categories">
         <div class="container">
-            <h2 class="text-center">Explore Foods</h2>
+            <h2 class="text-center">Tham khảo Các món ăn</h2>
 
             <?php 
 

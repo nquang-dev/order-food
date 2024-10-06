@@ -4,7 +4,7 @@
         <!-- Main Content Section Starts -->
         <div class="main-content">
             <div class="wrapper">
-                <h1>Dashboard</h1>
+                <h1>Bảng điều khiển</h1>
                 <br><br>
                 <?php 
                     if(isset($_SESSION['login']))
@@ -28,7 +28,7 @@
 
                     <h1><?php echo $count; ?></h1>
                     <br />
-                    Categories
+                    Thực đơn
                 </div>
 
                 <div class="col-4 text-center">
@@ -44,7 +44,7 @@
 
                     <h1><?php echo $count2; ?></h1>
                     <br />
-                    Foods
+                    Các món ăn
                 </div>
 
                 <div class="col-4 text-center">
@@ -60,7 +60,7 @@
 
                     <h1><?php echo $count3; ?></h1>
                     <br />
-                    Total Orders
+                    Tổng đơn đặt hàng
                 </div>
 
                 <div class="col-4 text-center">
@@ -77,13 +77,14 @@
                         $row4 = mysqli_fetch_assoc($res4);
                         
                         //GEt the Total REvenue
-                        $total_revenue = $row4['Total'];
+                        // $total_revenue = $row4['Total'];
+                        $total_revenue = number_format($row4['Total'], 0, '', '');
 
                     ?>
 
-                    <h1>$<?php echo $total_revenue; ?></h1>
+                    <h1><?php echo $total_revenue; ?> VND</h1>
                     <br />
-                    Revenue Generated
+                    Số tiền đã thu được
                 </div>
 
                 <div class="clearfix"></div>

@@ -2,7 +2,7 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Add Category</h1>
+        <h1>Thêm thực đơn</h1>
 
         <br><br>
 
@@ -29,21 +29,21 @@
 
             <table class="tbl-30">
                 <tr>
-                    <td>Title: </td>
+                    <td>Tên: </td>
                     <td>
-                        <input type="text" name="title" placeholder="Category Title">
+                        <input type="text" name="title" placeholder="Nhập tên">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Select Image: </td>
+                    <td>Chọn ảnh: </td>
                     <td>
                         <input type="file" name="image">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Featured: </td>
+                    <td>Trạng thái: </td>
                     <td>
                         <input type="radio" name="featured" value="Yes"> Yes 
                         <input type="radio" name="featured" value="No"> No 
@@ -51,7 +51,7 @@
                 </tr>
 
                 <tr>
-                    <td>Active: </td>
+                    <td>Hiệu lực: </td>
                     <td>
                         <input type="radio" name="active" value="Yes"> Yes 
                         <input type="radio" name="active" value="No"> No 
@@ -60,7 +60,7 @@
 
                 <tr>
                     <td colspan="2">
-                        <input type="submit" name="submit" value="Add Category" class="btn-secondary">
+                        <input type="submit" name="submit" value="Thêm" class="btn-secondary">
                     </td>
                 </tr>
 

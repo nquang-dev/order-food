@@ -2,7 +2,7 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Add Food</h1>
+        <h1>Thêm món</h1>
 
         <br><br>
 
@@ -19,35 +19,35 @@
             <table class="tbl-30">
 
                 <tr>
-                    <td>Title: </td>
+                    <td>Tên: </td>
                     <td>
-                        <input type="text" name="title" placeholder="Title of the Food">
+                        <input type="text" name="title" placeholder="Nhập tên">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Description: </td>
+                    <td>Mô tả: </td>
                     <td>
-                        <textarea name="description" cols="30" rows="5" placeholder="Description of the Food."></textarea>
+                        <textarea name="description" cols="30" rows="5" placeholder="Nhập mô tả."></textarea>
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Price: </td>
+                    <td>Giá: </td>
                     <td>
                         <input type="number" name="price">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Select Image: </td>
+                    <td>Chọn ảnh: </td>
                     <td>
                         <input type="file" name="image">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Category: </td>
+                    <td>Thực đơn: </td>
                     <td>
                         <select name="category">
 
@@ -96,7 +96,7 @@
                 </tr>
 
                 <tr>
-                    <td>Featured: </td>
+                    <td>Trạng thái: </td>
                     <td>
                         <input type="radio" name="featured" value="Yes"> Yes 
                         <input type="radio" name="featured" value="No"> No
@@ -104,7 +104,7 @@
                 </tr>
 
                 <tr>
-                    <td>Active: </td>
+                    <td>Hiệu lực: </td>
                     <td>
                         <input type="radio" name="active" value="Yes"> Yes 
                         <input type="radio" name="active" value="No"> No
@@ -113,7 +113,7 @@
 
                 <tr>
                     <td colspan="2">
-                        <input type="submit" name="submit" value="Add Food" class="btn-secondary">
+                        <input type="submit" name="submit" value="Thêm" class="btn-secondary">
                     </td>
                 </tr>
 

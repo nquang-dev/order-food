@@ -2,12 +2,12 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Manage Food</h1>
+        <h1>Quản lý các món ăn</h1>
 
         <br /><br />
 
                 <!-- Button to Add Admin -->
-                <a href="<?php echo SITEURL; ?>admin/add-food.php" class="btn-primary">Add Food</a>
+                <a href="<?php echo SITEURL; ?>admin/add-food.php" class="btn-primary">Thêm món</a>
 
                 <br /><br /><br />
 
@@ -46,13 +46,13 @@
 
                 <table class="tbl-full">
                     <tr>
-                        <th>S.N.</th>
-                        <th>Title</th>
-                        <th>Price</th>
-                        <th>Image</th>
-                        <th>Featured</th>
-                        <th>Active</th>
-                        <th>Actions</th>
+                        <th>STT</th>
+                        <th>Tên</th>
+                        <th>Giá</th>
+                        <th>Ảnh</th>
+                        <th>Trạng thái</th>
+                        <th>Hiệu lực</th>
+                        <th>Chức năng</th>
                     </tr>
 
                     <?php 
@@ -107,8 +107,8 @@
                                     <td><?php echo $featured; ?></td>
                                     <td><?php echo $active; ?></td>
                                     <td>
-                                        <a href="<?php echo SITEURL; ?>admin/update-food.php?id=<?php echo $id; ?>" class="btn-secondary">Update Food</a>
-                                        <a href="<?php echo SITEURL; ?>admin/delete-food.php?id=<?php echo $id; ?>&image_name=<?php echo $image_name; ?>" class="btn-danger">Delete Food</a>
+                                        <a href="<?php echo SITEURL; ?>admin/update-food.php?id=<?php echo $id; ?>" class="btn-secondary">Cập nhật món</a>
+                                        <a href="<?php echo SITEURL; ?>admin/delete-food.php?id=<?php echo $id; ?>&image_name=<?php echo $image_name; ?>" class="btn-danger">Xóa món</a>
                                     </td>
                                 </tr>
 

@@ -49,16 +49,16 @@
                 <br><br><br>
 
                 <!-- Button to Add Admin -->
-                <a href="add-admin.php" class="btn-primary">Add Admin</a>
+                <a href="add-admin.php" class="btn-primary">Thêm Admin</a>
 
                 <br /><br /><br />
 
                 <table class="tbl-full">
                     <tr>
-                        <th>S.N.</th>
-                        <th>Full Name</th>
+                        <th>STT</th>
+                        <th>Tên đầy đủ</th>
                         <th>Username</th>
-                        <th>Actions</th>
+                        <th>Chức năng</th>
                     </tr>
 
                     
@@ -98,9 +98,9 @@
                                         <td><?php echo $full_name; ?></td>
                                         <td><?php echo $username; ?></td>
                                         <td>
-                                            <a href="<?php echo SITEURL; ?>admin/update-password.php?id=<?php echo $id; ?>" class="btn-primary">Change Password</a>
-                                            <a href="<?php echo SITEURL; ?>admin/update-admin.php?id=<?php echo $id; ?>" class="btn-secondary">Update Admin</a>
-                                            <a href="<?php echo SITEURL; ?>admin/delete-admin.php?id=<?php echo $id; ?>" class="btn-danger">Delete Admin</a>
+                                            <a href="<?php echo SITEURL; ?>admin/update-password.php?id=<?php echo $id; ?>" class="btn-primary">Đổi mật khẩu</a>
+                                            <a href="<?php echo SITEURL; ?>admin/update-admin.php?id=<?php echo $id; ?>" class="btn-secondary">Cập nhật Admin</a>
+                                            <a href="<?php echo SITEURL; ?>admin/delete-admin.php?id=<?php echo $id; ?>" class="btn-danger">Xóa Admin</a>
                                         </td>
                                     </tr>
 
